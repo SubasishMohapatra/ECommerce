@@ -5,7 +5,7 @@ namespace ECommerce.Api.Search
 {
     public class Program
     {
-        //Entry point
+        //Entry point - test pipeline
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
