@@ -11,6 +11,7 @@ namespace ECommerce.Api.Search
 {
     public class Program
     {
+        //Entry point
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
