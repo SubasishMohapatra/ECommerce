@@ -38,9 +38,6 @@ namespace ECommerce.Api.Search
             {
                 config.BaseAddress = new Uri(Configuration["Services:Customers"]);
             });
-            //"Customers": "http://localhost:57773",
-            //"Orders": "http://localhost:57892",
-            //"Products": "http://localhost:57580"
             services.AddControllers();
         }
 
